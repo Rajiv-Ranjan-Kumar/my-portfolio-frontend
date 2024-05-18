@@ -1,0 +1,29 @@
+@import url('/src/app/globals.css');
+
+
+.logo{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+
+    >a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+
+        font-size: 1.5rem;
+        font-weight: 600;
+        
+        .Rajiv{color: rgb(250, 43, 43);}
+
+        .Port{color: rgb(248, 112, 14);}
+
+        .folio{color: rgb(2, 223, 2)}
+    }
+}
